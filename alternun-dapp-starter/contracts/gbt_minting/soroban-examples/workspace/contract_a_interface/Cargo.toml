@@ -1,0 +1,19 @@
+[package]
+name = "soroban-workspace-contract-a-interface"
+version.workspace = true
+edition = "2021"
+publish = false
+rust-version = "1.85.0"
+
+[lib]
+crate-type = ["rlib"]
+doctest = false
+
+[features]
+testutils = []
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }

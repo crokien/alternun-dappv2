@@ -1,0 +1,27 @@
+# Angular / Node
+node_modules/
+dist/
+.angular/
+coverage/
+*.log
+npm-debug.log*
+yarn-*.log*
+
+# Rust / Soroban
+target/
+**/*.rs.bk
+.soroban/
+.soroban-keys/
+.soroban-rpc-cache/
+*.wasm
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env / Secretos
+.env
+.env.*
+secrets.json

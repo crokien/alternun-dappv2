@@ -1,0 +1,11 @@
+﻿[workspace]
+members = [
+    "contracts/gbt_token_v2",
+  "contracts/gbt_minting",
+  "contracts/treasury",
+  "contracts/project_vault",
+  "contracts/oracle_mock",
+  "contracts/atn_bonding_curve",
+  "contracts/gbt_minter_v2"
+]
+resolver = "2"

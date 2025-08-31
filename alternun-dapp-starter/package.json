@@ -1,0 +1,23 @@
+﻿{
+    "name":  "alternun-dapp-starter",
+    "version":  "1.0.0",
+    "description":  "Vertical slice starter for Alternun on Stellar using Soroban smart contracts. It includes minimal contracts for: - **GBT Minting** (accepts stablecoin, mints GBT, and routes funds to Treasury) - **Treasury** (splits incoming funds 50/30/20 to Projects/Recovery/Alternun) - **ATN Bonding Curve** (quotes and mints ATN against a reserve token) - **Project Vault** (locks GBT and accounts for positions; pGBT placeholder) - **Oracle Mock** (sets a gold price for testing)",
+    "main":  "index.js",
+    "directories":  {
+                        "doc":  "docs"
+                    },
+    "scripts":  {
+                    "test":  "echo \"Error: no test specified\" \u0026\u0026 exit 1",
+                    "env:check":  "node scripts/check-env.js",
+                    "smoke:mint":  "powershell -ExecutionPolicy Bypass -File scripts/smoke-mint.ps1"
+                },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "dependencies":  {
+                         "dotenv":  "^17.2.1",
+                         "stellar-sdk":  "^13.3.0"
+                     }
+}
